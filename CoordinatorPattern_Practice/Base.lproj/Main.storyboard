@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LuL-jI-b82">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -57,7 +57,7 @@
         <!--Cool View Controller-->
         <scene sceneID="5ig-E3-46P">
             <objects>
-                <viewController storyboardIdentifier="CoolViewController" id="yZO-Pk-9Pd" customClass="CoolViewController" customModule="NewCoordinator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CoolViewController" id="yZO-Pk-9Pd" customClass="CoolViewController" customModule="CoordinatorPattern_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5cv-FH-Hfj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
         <!--Warm View Controller-->
         <scene sceneID="JVP-kK-uxs">
             <objects>
-                <viewController storyboardIdentifier="WarmViewController" id="rdv-Oe-fXB" customClass="WarmViewController" customModule="NewCoordinator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WarmViewController" id="rdv-Oe-fXB" customClass="WarmViewController" customModule="CoordinatorPattern_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fr9-Af-sWO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -145,7 +145,7 @@
         <!--Cool Light View Controller-->
         <scene sceneID="BYI-PB-Ohw">
             <objects>
-                <viewController storyboardIdentifier="CoolLightViewController" id="UAa-vu-jKP" customClass="CoolLightViewController" customModule="NewCoordinator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CoolLightViewController" id="UAa-vu-jKP" customClass="CoolLightViewController" customModule="CoordinatorPattern_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9kq-Gs-1ds">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,7 +160,7 @@
         <!--Cool Heavy View Controller-->
         <scene sceneID="4gS-eY-XkP">
             <objects>
-                <viewController storyboardIdentifier="CoolHeavyViewController" id="sld-lX-sfb" customClass="CoolHeavyViewController" customModule="NewCoordinator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CoolHeavyViewController" id="sld-lX-sfb" customClass="CoolHeavyViewController" customModule="CoordinatorPattern_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Tw-Aw-974">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,7 +175,7 @@
         <!--Warm Light View Controller-->
         <scene sceneID="dyA-w1-77H">
             <objects>
-                <viewController storyboardIdentifier="WarmLightViewController" id="lKP-96-Ty8" customClass="WarmLightViewController" customModule="NewCoordinator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WarmLightViewController" id="lKP-96-Ty8" customClass="WarmLightViewController" customModule="CoordinatorPattern_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PcP-9t-7Zb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -190,7 +190,7 @@
         <!--Warm Heavy View Controller-->
         <scene sceneID="Npz-7P-LPr">
             <objects>
-                <viewController storyboardIdentifier="WarmHeavyViewController" id="NNR-cH-j0y" customClass="WarmHeavyViewController" customModule="NewCoordinator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WarmHeavyViewController" id="NNR-cH-j0y" customClass="WarmHeavyViewController" customModule="CoordinatorPattern_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TFs-AQ-Hk5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

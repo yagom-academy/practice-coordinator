@@ -6,18 +6,18 @@
 import UIKit
 
 class MainViewController: UIViewController {
+    var coordinator: MainCoordinator?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     @IBAction func moveToCoolViewController(_ sender: Any) {
-        guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "CoolViewController") else { return }
-        navigationController?.pushViewController(nextVC, animated: true)
+        coordinator?.moveToCoolViewController()
     }
     
     @IBAction func moveToWarmViewController(_ sender: Any) {
-        guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "WarmViewController") else { return }
-        navigationController?.pushViewController(nextVC, animated: true)
+        coordinator?.moveToWarmViewController()
     }
 }
 
